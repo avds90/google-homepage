@@ -1,11 +1,32 @@
 /* Master style */
+/*Set margin and padding to 0px to work properly. Delete the text decoration to change text later on. Change the font to Arial, sans-serif like the Google webpage.*/
 * {
-margin: 0px;
-padding: 0px;
-box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
 }
 
 /*Nav styles*/
+/*Like the Google site there needed to be padding: 6px and height: 60px to align the items in the same position.*/
+.navigation-wrapper {
+    display: flex;
+    width: auto;
+    padding: 6px;
+    height: 60px;
+}
+
+/*display: flex to place the links horizontally. Justify-content: space between to get some space between the links. Needed to add some width to see the space between. Margin-left: auto to push everything to the right corner. Align-items: center to center the links vertically. List-style: none to remove the bulletpoints.For now padding-right: 15px to move the links to the left. Need to style the links to make it exact.*/
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 317.6px;
+    margin-left: auto;
+    align-items: center;
+    list-style: none;
+    padding-right: 15px;
+}
 
 /*Main content*/
 
