@@ -29,5 +29,12 @@
 }
 
 /*Main content*/
+/*Center all the content in the middle on the page. Need some further placing and styling.*/
+.content-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 /*Footer*/
