@@ -6,6 +6,7 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: Arial, sans-serif;
+    
 }
 
 /*Nav styles*/
@@ -38,3 +39,77 @@
 }
 
 /*Footer*/
+/*Position: fixed and bottom 0 to push all the elements to the bottom. Creating a box with a width of 1846px and height of 95px like the google homepage. Giving it the background color as the google homepage.*/
+.footer-wrapper {
+    position: fixed;
+    bottom: 0;
+    width: 1846px;
+    height: 95px;
+    background-color: #f2f2f2;
+}
+
+/*Change the font-size to 14px for the content in the bottom-footer.*/
+.footer-wrapper li {
+    font-size: 14px;
+}
+
+/*Adding justify content to push elements from each other. Not visible. Need adding boxes for the left-side and right-side. */
+.footer-wrapper ul {
+    justify-content: space-between;
+    padding: 15px;
+}
+
+/*Creating a box with a width and height for the top wrapper. Add a border to the bottom n the right color.*/
+.footer-top-wrapper {
+    width: 1846px;
+    height: 49px;
+    border-bottom: 1px solid #dadce0;
+}
+
+/*Add the right font-size to the p element in the footer top. Add the font color to the p element and add some padding to give it the right position*/
+.footer-top-wrapper p {
+    font-size: 15px;
+    color: #70757a;
+    padding: 15px 30px;
+}
+
+/*Adding display flex to separate the left and right footer content next to each other. Add a width and height to create a box for the bottom wrapper. Adding justify-content: space between to push to push the right-content to the right. Add some padding to give the elements the right position.*/
+.footer-bottom-wrapper {
+    display: flex;
+    width: 1846px;
+    height: 46px;
+    justify-content: space-between;
+    padding: 0 18px 0 20px;
+}
+
+/*Add the right color to the a elements in the footer-bottom.*/
+.footer-bottom-wrapper a {
+    color: #70757a;
+}
+
+/*Display flex to put the content horizontally and add list-style-type: none to remove bullet points.*/
+.footer-links {
+    display: flex;
+    list-style-type: none;
+}
+
+/* Adding box with width and height to make justify content:space between visible for footer-wrapper ul*/
+.footer-left-side {
+    width: 399.317px;
+    height: 46px;
+}
+
+/* Adding box with width and height to make justify content:space between visible for footer-wrapper ul*/
+.footer-right-side {
+    width: 224.583px;
+    height: 46px;
+}
+
+
+
+
+
+
+
+
+
